@@ -1,0 +1,23 @@
+rec_pago:
+    resource: "@RecPagoBundle/Resources/config/routing.yml"
+    prefix:   /
+
+definiciones:
+    resource: "@definicionesBundle/Resources/config/routing.yml"
+    prefix:   /
+
+personal:
+    resource: "@personalBundle/Resources/config/routing.yml"
+    prefix:   /
+
+menu_principal:
+    resource: "@menuPrincipalBundle/Resources/config/routing.yml"
+    prefix:   /
+
+loginglogin:
+    resource: "@logingloginBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
